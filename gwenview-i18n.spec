@@ -956,9 +956,8 @@ FindLang() {
     fi
 # share/doc/kde/HTML/(%%lang)
     if [ -d "$RPM_BUILD_ROOT%{_kdedocdir}/$1" ]; then
-       echo "%lang($1) %{_kdedocdir}/$1" >> "$2.lang"
+       echo "%lang($1) %{_kdedocdir}/$1/gwenview" >> "$2.lang"
     fi
-
 }
 
 ##FindLang af Afrikaans
