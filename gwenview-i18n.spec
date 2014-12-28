@@ -7,7 +7,7 @@ License:	GPL
 Group:		I18n
 Source0:	http://dl.sourceforge.net/gwenview/%{name}-%{version}.tar.bz2
 # Source0-md5:	68be7ede4c3a17e1c3f807e14143c967
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	kdelibs-devel >= 9:3.2
 BuildArch:	noarch
 Obsoletes:	gwenview-i18n-base
